@@ -27,6 +27,7 @@
                       <h6 class="card-subtitle mb-2 text-muted">{{blog.pub_date}}</h6>
                       <p class="card-text">{{blog.summary}}</p>
                       <a href="{% url 'detail' blog.id %}" class="card-link">...more</a>
+                      <a href="{% url 'update' blog.id %}" class="card-link">update</a>
                       <a href="{% url 'delete' blog.id %}" class="card-link">delete</a>
                     </div>
                 </div>
